@@ -1,16 +1,23 @@
 name: iocl-python-training
+
 channels:
   - conda-forge
   - defaults
+
 dependencies:
-  # python
-  - python=3.9
+  
+  # Python and Notebooks
+  - python=3.9.7
   - ipykernel
-  - numpy
-  - pandas
-  - statsmodels
-  - missingno
-  - sklearn
-  - matplotlib
-  - seaborn
-  - sktime
+  
+  # Data Engineering
+  - numpy=1.21.3
+  - pandas=1.3.4
+  - statsmodels=0.13.0
+  - scikit-learn=1.0
+  - sktime=0.8.0
+  
+  # Visualization
+  - missingno=0.4.2
+  - matplotlib=3.4.3
+  - seaborn=0.11.2
