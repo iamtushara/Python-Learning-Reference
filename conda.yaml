@@ -8,7 +8,12 @@ dependencies:
   
   # Python and Notebooks
   - python=3.9.7
-  - ipykernel
+  - ipykernel=6.4.2
+  
+  # HTML
+  - lxml=4.6.3
+  - html5lib=1.1
+  - BeautifulSoup4=4.10.0
   
   # Data Engineering
   - numpy=1.21.3
@@ -16,6 +21,8 @@ dependencies:
   - statsmodels=0.13.0
   - scikit-learn=1.0
   - sktime=0.8.0
+  - openpyxl=3.0.9
+  - sqlalchemy=1.4.22
   
   # Visualization
   - missingno=0.4.2
