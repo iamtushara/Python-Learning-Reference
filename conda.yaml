@@ -1,4 +1,4 @@
-name: iocl-python-training
+name: python-training
 
 channels:
   - conda-forge

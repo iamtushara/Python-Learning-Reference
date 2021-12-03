@@ -1,4 +1,4 @@
-# iocl-python-training  
+# python-training  
 
 ## Overview
 
@@ -6,11 +6,11 @@ This repository contains training materials including (but not limited to) class
 
 ## Setup
 
-__Create a new conda environment named 'iocl-python-training' for this project:__
+__Create a new conda environment named 'python-training' for this project:__
 > conda env create --file conda.yaml
 
 __Activate the newly created conda environment this way:__
-> conda activate iocl-python-training
+> conda activate python-training
 
 ## Project structure
 
